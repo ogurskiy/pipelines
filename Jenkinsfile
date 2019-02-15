@@ -10,7 +10,7 @@ node ('ansible_slave') {
         }
     }
         
-    stage('Get data from Git’) {
+    stage('Get data from Git') {
         dir("ansible") {
             git poll: false, branch: "master", url: "${PLAYBOOK_GIT_URL}"
         }

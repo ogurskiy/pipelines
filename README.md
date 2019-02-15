@@ -6,4 +6,4 @@ PLAYBOOK_GIT_UR: 'https://github.com/ogurskiy/playbooks'
 
 TEMPLATES_GIT_URL: 'https://github.com/ogurskiy/templates'
 
-PLAYBOOK_PATH: 'playbooks/nginx.yml
+PLAYBOOK_PATH: 'playbooks/nginx.yml'

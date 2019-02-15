@@ -1,7 +1,6 @@
 #!groovy
 
 node ('ansible_slave') {
-    git poll: true, url: '${TEMPLATES_GIT_URL}'
 
     timestamps {
         
